@@ -8,7 +8,7 @@ agent any
                       } }
          stage('push') {
 			steps{
-			sh ' docker push -t chetouiiftikhar/img:img . '
+			sh ' docker push chetouiiftikhar/img:img . '
 
                       }}
           stage('run') {
