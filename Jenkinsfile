@@ -14,7 +14,7 @@ environment{DOCKERHUB_CREDENTIALS=credentials('dockerhub')}
                       } }
          stage('push') {
 			steps{
-			sh ' docker push chetouiiftikhar/img:img . '
+			sh ' docker push chetouiiftikhar/img:img  '
 
                       }}
           stage('run') {
